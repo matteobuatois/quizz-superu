@@ -5,14 +5,14 @@ const quizData = [
         answer: 0
     },
     {
-        q: "Que garantit le logo 'Bleu-Blanc-Cœur' dans l'alimentation des animaux ?",
-        options: ["Plus de vitamines", "Des Oméga 3 naturels (Lin)", "Moins de sel"],
-        answer: 1
-    },
-    {
         q: "Quelle est la distance maximale pour qu'un produit soit considéré 'Local' dans nos magasins Super U ?",
         options: ["80 km", "250 km", "500 km"],
         answer: 0
+    },
+    {
+        q: "Que garantit le logo 'Bleu-Blanc-Cœur' dans l'alimentation des animaux ?",
+        options: ["Plus de vitamines", "Des Oméga 3 naturels (Lin)", "Moins de sel"],
+        answer: 1
     }
 ];
 
