@@ -146,3 +146,27 @@ p {
 .logo-u {
     width: 200px;
 }
+
+/* --- ADAPTATION POUR LES PETITS ÉCRANS (MOBILES) --- */
+@media (max-width: 600px) {
+    #quiz-container {
+        width: calc(100% - 40px); /* Laisse 20px de marge à gauche et à droite */
+        padding: 40px 20px; /* On réduit un peu les marges à l'intérieur */
+        border-radius: 20px; /* Des bords un peu moins ronds sur petit écran */
+    }
+    
+    h1 {
+        font-size: 24px; /* On réduit légèrement le titre */
+    }
+    
+    p {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    
+    .massive-btn {
+        font-size: 18px !important;
+        padding: 20px !important;
+        width: 100%; /* Le bouton s'adapte parfaitement */
+    }
+}
